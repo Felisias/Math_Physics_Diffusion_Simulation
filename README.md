@@ -54,12 +54,14 @@ The numerical experiments confirmed the theoretical findings.
 
 **Concentration vs. Time $u(t)$ at fixed $x=4$**
 <div align="center">
-  <img width="800" alt="u(t) plot" src="https://github.com/user-attachments/assets/aa096e83-342f-42d1-87fb-e9666ffc56f4" />
+  <img width="400" alt="u(t) plot" src="https://github.com/user-attachments/assets/aa096e83-342f-42d1-87fb-e9666ffc56f4" />
+  <img width="400" alt="u(t) animation" src="ССЫЛКА_НА_ГИФКУ_1" />
 </div>
 
 **Concentration vs. Coordinate $u(x)$ at fixed $t=115$**
 <div align="center">
-  <img width="800" alt="u(x) plot" src="https://github.com/user-attachments/assets/6d94930d-9522-49b7-ac44-d11c647fef83" />
+  <img width="400" alt="u(x) plot" src="https://github.com/user-attachments/assets/6d94930d-9522-49b7-ac44-d11c647fef83" />
+  <img width="400" alt="u(x) animation" src="ССЫЛКА_НА_ГИФКУ_2" />
 </div>
 
 
