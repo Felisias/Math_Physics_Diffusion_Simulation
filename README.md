@@ -4,6 +4,9 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange.svg)
 ![NumPy](https://img.shields.io/badge/NumPy-Math-lightblue.svg)
 
+
+
+[![PDF Report](https://img.shields.io/badge/View_Full_Coursework_Report-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./Coursework_Math_Physics_Kutsyba.pdf)
 ##  Project Overview
 This repository contains my coursework project on **"Numerical Methods for Mathematical Physics"**, completed at Samara National Research University. The project focuses on solving a boundary value problem that models the diffusion of a substance in a porous tube with absorption using the **finite difference method (explicit scheme)**.
 
