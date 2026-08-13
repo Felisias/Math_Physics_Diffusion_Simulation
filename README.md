@@ -52,10 +52,14 @@ The numerical experiments confirmed the theoretical findings.
 1. **Convergence:** As the grid is refined (decreasing $h_x$ and $h_t$), the numerical solution converges visually and quantitatively to the analytical Fourier series solution.
 2. **Stability:** Running the simulation with grid parameters violating the stability condition explicitly demonstrates unbounded numerical oscillations (instability).
 
-*(Note: You can replace these placeholders with the actual generated plots from your Python script)*
-
 **Concentration vs. Time $u(t)$ at fixed $x=4$**
-`<!-- <div align="center"><img width="800" alt="u(t) plot" src="link_to_plot_1" /></div> -->`
+<div align="center">
+  <img width="800" alt="u(t) plot" src="https://github.com/user-attachments/assets/aa096e83-342f-42d1-87fb-e9666ffc56f4" />
+</div>
 
 **Concentration vs. Coordinate $u(x)$ at fixed $t=115$**
-`<!-- <div align="center"><img width="800" alt="u(x) plot" src="link_to_plot_2" /></div> -->`
+<div align="center">
+  <img width="800" alt="u(x) plot" src="https://github.com/user-attachments/assets/6d94930d-9522-49b7-ac44-d11c647fef83" />
+</div>
+
+
