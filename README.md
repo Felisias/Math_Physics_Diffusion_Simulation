@@ -8,7 +8,6 @@
 
 [![PDF Report](https://img.shields.io/badge/View_Full_Coursework_Report-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./Coursework_Math_Physics_Kutsyba.pdf)
 
-📄 **[Read the Full Coursework Report (PDF)](./Coursework_Math_Physics_Kutsyba.pdf)**
 ##  Project Overview
 This repository contains my coursework project on **"Numerical Methods for Mathematical Physics"**, completed at Samara National Research University. The project focuses on solving a boundary value problem that models the diffusion of a substance in a porous tube with absorption using the **finite difference method (explicit scheme)**.
 
@@ -62,6 +61,10 @@ The numerical experiments confirmed the theoretical findings.
   <img width="400" alt="u(t) plot" src="https://github.com/user-attachments/assets/aa096e83-342f-42d1-87fb-e9666ffc56f4" />
   <img width="488" alt="u(t) animation" src="https://github.com/user-attachments/assets/1582e9f9-e377-4f02-9537-c6f5d5a3b7ec" />
 </div>
+
+📄 **[Read the Full Coursework Report (PDF)](./Coursework_Math_Physics_Kutsyba.pdf)**
+[Coursework_Math_Physics_Kutsyba.pdf](https://github.com/user-attachments/files/...)
+
 
 **Concentration vs. Coordinate $u(x)$ at fixed $t=115$**
 <div align="center">
