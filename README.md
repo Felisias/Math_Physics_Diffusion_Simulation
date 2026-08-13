@@ -70,4 +70,5 @@ The numerical experiments confirmed the theoretical findings.
 
 
 📄 **[Read the Full Coursework Report (PDF)](./Coursework_Math_Physics_Kutsyba.pdf)**
+
 [Coursework_Math_Physics_Kutsyba.pdf](https://github.com/user-attachments/files/31040788/Coursework_Math_Physics_Kutsyba.pdf)
