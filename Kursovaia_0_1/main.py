@@ -402,7 +402,7 @@ class BoundaryApp:
             (64, 2048): 0.000770,
             (128, 8192): 0.000191,
             (256, 32768): 0.000046,
-            (512, 131072): 0.000011  # добавляем значение для самой мелкой сетки
+            (512, 131072): 0.000011
         }
 
         # Словарь предопределенных погрешностей для plot_error_analysis_t (отображаемые сетки)
@@ -417,7 +417,6 @@ class BoundaryApp:
         }
 
 
-        # Словарь для отображения псевдо-сеток в plot_error_analysis_t
         self.display_pairs_t = {
             (8, 32): (8, 32),
             (32, 512): (16, 128),
@@ -434,7 +433,6 @@ class BoundaryApp:
 
 
 
-        # Поля ввода с улучшенным дизайном (старые имена)
         params = [
             ("Длина l", "30", "Пространственная длина области"),
             ("Время T", "300", "Общее время моделирования"),
@@ -445,7 +443,6 @@ class BoundaryApp:
             ("Шаги t (K)", "500", "Количество временных шагов")
         ]
 
-        # Добавляем параметры для аналитического решения
         self.analytical_params = {
             'D': 0.002,
             'C': 0.5,
@@ -478,7 +475,6 @@ class BoundaryApp:
         separator = ttk.Separator(control_frame, orient='horizontal')
         separator.grid(row=8, column=0, columnspan=2, sticky="ew", pady=20)
 
-        # Фрейм для кнопок графиков
         # Фрейм для кнопок графиков
         plot_buttons_frame = ttk.Frame(control_frame)
         plot_buttons_frame.grid(row=9, column=0, columnspan=2, pady=10)
@@ -538,7 +534,6 @@ class BoundaryApp:
                                          style='TButton', width=5)
         self.forward_button.grid(row=0, column=2, padx=2)
 
-        # Центрируем кнопки воспроизведения
         playback_frame.grid_columnconfigure(0, weight=1)
         playback_frame.grid_columnconfigure(1, weight=1)
         playback_frame.grid_columnconfigure(2, weight=1)
@@ -615,14 +610,13 @@ class BoundaryApp:
         self.current_direction = 1  # 1 для вперед, -1 для назад
         self.current_frame = 0
         self.total_frames = 0
-        self.base_interval = 25  # Базовый интервал для анимации
+        self.base_interval = 25 
         self.using_cached_data = False
         self.frame_step = 1  # Шаг кадров для ускорения
 
         # Начальный график
         self.show_welcome_message()
 
-        # Запускаем предварительный расчет анимации с параметрами по умолчанию
         self.master.after(100, self.start_precalculation)
 
     def _get_relative_position(self, real_pair, reference_mapping):
@@ -767,7 +761,6 @@ class BoundaryApp:
     def _interpolate_error(self, I, K, pairs):
         """Интерполирует погрешность для сетки (I, K) на основе соседних известных значений"""
 
-        # Ищем ЛЮБЫЕ известные пары из predefined_errors, не ограничиваясь pairs
         all_known = [(pi, pk) for (pi, pk) in self.predefined_errors.keys()]
         all_known.sort(key=lambda x: x[0])  # Сортируем по I
 
