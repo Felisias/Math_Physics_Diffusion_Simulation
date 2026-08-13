@@ -61,6 +61,6 @@ The numerical experiments confirmed the theoretical findings.
 **Concentration vs. Coordinate $u(x)$ at fixed $t=115$**
 <div align="center">
   <img width="400" alt="u(x) plot" src="https://github.com/user-attachments/assets/6d94930d-9522-49b7-ac44-d11c647fef83" />
-  <img width="405" alt="u(x) animation" src="https://github.com/user-attachments/assets/cffc85c0-19b9-4a0a-b543-5570cfae2e8f" />
+  <img width="406" alt="u(x) animation" src="https://github.com/user-attachments/assets/cffc85c0-19b9-4a0a-b543-5570cfae2e8f" />
 </div>
 
