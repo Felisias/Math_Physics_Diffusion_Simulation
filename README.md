@@ -42,8 +42,8 @@ The program calculates both:
 1.  **Numerical Solution:** Using the explicit scheme outlined above.
 2.  **Analytical Solution:** Computed using Fourier series expansion for rigorous validation.
 
-*(Note: Add screenshot of the code or interface here if desired)*
-`<!-- <div align="center"><img width="600" src="link_to_image" /></div> -->`
+`<!-- <div align="center"><img width="600" src="[link_to_image](https://github.com/user-attachments/assets/0ee74c35-c542-45a7-9f59-7044432daa6d)" /></div> -->`
+
 
 ##  Results and Visualization
 
